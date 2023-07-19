@@ -11,8 +11,9 @@
 .black-text {
     color: #0B0223;
 }
-.violate-text{
-    color:  #8758F1;
+
+.violate-text {
+    color: #8758F1;
 }
 
 
@@ -197,44 +198,50 @@ nav li a {
 }
 
 /* online games */
-.online{
+.online {
     max-width: 1400px;
     margin: 0px auto;
 }
-.online-title{
+
+.online-title {
     text-align: center;
     font-size: 3rem;
     padding-top: 30px;
 
 }
-.online-text{
+
+.online-text {
     text-align: center;
     margin-top: 0;
 }
-.card{
+
+.card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
 }
-.card-item p{
+
+.card-item p {
     color: #534C64;
     padding-top: 10px;
 }
-.card-item{
+
+.card-item {
     position: relative;
 }
-.card-item i{
+
+.card-item i {
     display: block;
     position: absolute;
     top: 40%;
     right: 50%;
-    transform: translate(50%,-50%);
+    transform: translate(50%, -50%);
     display: none;
     color: #FFFFFF;
     display: none;
 }
 
-.card-item::after{
+.card-item::after {
     content: "";
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
@@ -244,61 +251,66 @@ nav li a {
     height: 83%;
 
 }
-.card-item:hover::after{
+
+.card-item:hover::after {
     background-color: rgba(0, 0, 0, 0.2);
     border: 10px solid rgb(247, 81, 205);
     cursor: pointer;
     border-radius: 10px;
-    
+
 }
 
 
 
-.card-item:hover .play{
+.card-item:hover .play {
     display: inline-block;
 }
 
 /* instant-play  */
-.play-instant{
+.play-instant {
     max-width: 1400px;
     margin: 0 auto;
     margin-top: 80px;
 }
-.play-instant-content{
+
+.play-instant-content {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.play-instant-text{
+.play-instant-text {
     text-align: right;
     padding-left: 100px;
 }
-.play-instant-title{
+
+.play-instant-title {
     font-size: 3rem;
     font-weight: 700;
 
 
 }
 
-.play-instant-title p{
+.play-instant-title p {
     color: #534C64;
-text-align: right;
-font-size: 1.1rem;
-font-weight: 400;
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
-.play-instant-img{
+.play-instant-img {
     align-items: center;
     position: relative;
 
 }
-.i1{
+
+.i1 {
     width: 70%;
     padding-left: 300px;
 
 }
-.i2{
+
+.i2 {
     width: 30%;
     position: absolute;
     bottom: -10%;
@@ -307,34 +319,37 @@ font-weight: 400;
 }
 
 /* types */
-.types{
+.types {
     margin: 0 auto;
     margin-top: 200px;
 }
-.types-content{
+
+.types-content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.type-card{
+.type-card {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 270px;
     height: 65px;
 }
-.types-content img{
-    width: 50px ;
+
+.types-content img {
+    width: 50px;
     height: 50px;
     padding-left: 5px;
 }
-.types-content p{
-    padding-right:40px ;
+
+.types-content p {
+    padding-right: 40px;
 }
 
-.types .type-card:hover{
+.types .type-card:hover {
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -346,62 +361,167 @@ font-weight: 400;
 
 
 /* footer  */
-footer{
+footer {
     margin-top: 4rem;
     background-color: #0B0223;
     color: #FFFFFF;
     height: 580px;
 }
-.div-logo{
+
+.div-logo {
     display: flex;
     justify-content: center;
 }
 
-.div-logo img{
+.div-logo img {
     width: 86.041px;
-height: 40px;
-padding-top: 45px;
-padding-right: 15px;
+    height: 40px;
+    padding-top: 45px;
+    padding-right: 15px;
 }
 
-.div-logo h2{
+.div-logo h2 {
     text-align: center;
-font-size: 2.8rem;
-font-weight: 700;
+    font-size: 2.8rem;
+    font-weight: 700;
 }
-.footer-content{
+
+.footer-content {
     padding-top: 4rem;
     margin: 0 auto;
     text-align: center;
 }
 
-.footer-nav a{
+.footer-nav a {
     color: #FFFFFF;
     text-decoration: none;
     padding: 15px;
 }
-.social{
+
+.social {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-.social i{
+
+.social i {
     color: #FFFFFF;
     width: 60px;
-height: 30px;
-margin-top: 30px;
-margin-bottom: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
-.policy a{
+
+.policy a {
     color: rgba(255, 255, 255, 0.60);
     text-decoration: none;
     padding: 15px;
     padding-bottom: 4rem;
 }
-.coypright{
+
+.coypright {
     margin-top: 2rem;
     color: rgba(255, 255, 255, 0.60);
 
 
+}
+
+
+/* responcive */
+
+/* mobile  */
+@media screen and (max-width: 576px) {
+
+    nav,
+    nav>ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 190px;
+        background-color: none;
+    }
+    .logo{
+        padding-left: 550px;
+    }
+
+    nav>ul {
+        margin: 0 auto;
+    }
+
+    .banner {
+        background-image: none;
+    }
+
+    .banner-content {
+        flex-direction: column-reverse;
+    }
+
+    .banner-pic img {
+        width: 700px;
+        padding-left: 150px;
+    }
+
+
+    .banner-item {
+        margin-top: 5rem;
+    }
+
+
+    .online-title {
+        text-align: center;
+        padding-left: 90%;
+        width: 100%;
+    }
+
+    .online-text {
+        text-align: center;
+        padding-left: 90%;
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .card-item {
+        padding-left: 350px;
+        width: 603px;
+        height: 560.331px;
+        flex-shrink: 0;
+    }
+    .card-item img{
+        width: 450px;
+        height: 470px;
+    }
+    .card-item p{
+        font-size: 1.5rem;
+        width: 70%;
+    }
+    .play-instant-content{
+        flex-direction: column;
+    }
+    .play-instant-text{
+        align-items: center;
+        text-align: center;
+        width: 500px;
+        padding-left: 160%;
+        padding-bottom: 25px;
+    }
+
+    .i1, .i2{
+        padding-left: 500px;
+    }
+    .types-content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+  padding-left: 550px;
+    }
+    footer{
+        width: 1020px;
+    }
+    
 }
