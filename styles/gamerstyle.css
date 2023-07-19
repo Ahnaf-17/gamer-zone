@@ -1,0 +1,156 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* color text  */
+.pink-text {
+    color: rgb(247, 81, 205);
+}
+
+.black-text {
+    color: #0B0223;
+}
+
+
+
+.pink-button {
+    background-color: rgb(247, 81, 205);
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.blue-button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+}
+
+
+
+
+/* header  */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-left: 240px;
+    padding-right: 240px;
+    background-color: #FFFFFF;
+
+}
+
+nav>ul {
+    display: flex
+}
+
+.logo {
+    display: flex;
+}
+
+.logo>img {
+    padding-right: 20px;
+    width: 86.041px;
+    height: 40px;
+    padding-top: 50px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    /* margin-top: 40px; */
+}
+
+nav li a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.yt {
+    margin-right: 20px;
+}
+
+
+.li-icon {
+    margin-left: 20px;
+}
+
+/* .a1{
+
+    margin-top: 50px;
+} */
+
+
+.unique-list {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    margin-top: 20px;
+    width: 256px;
+    height: 50px;
+
+}
+
+.logo-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+/* banner */
+
+
+.banner {
+    background-image: url(../images/Group-14.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 700px;
+    /* width: 800px; */
+
+}
+
+.banner-content{
+    text-align: left;
+    margin: 0 auto;
+}
+
+.banner img {
+    width: 901px;
+    height: 700px;
+}
+
+.banner-title-2{
+    color:  #8758F1;
+    /* text-align: center; */
+font-size: 95px;
+font-weight: 800;
+text-transform: uppercase;
+}
+
+.banner-title-1{
+    color: #0B0223;
+/* text-align: center; */
+font-size: 48px;
+font-weight: 600;
+text-transform: uppercase;
+}
