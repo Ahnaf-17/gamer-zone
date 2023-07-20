@@ -442,6 +442,14 @@ footer {
     nav {
         flex-direction: column;
         width: 100%;
+        padding-bottom: 20px;
+    }
+    .banner{
+        /* padding-top: 20px;
+        background-image: url(../images/Group-14.png);
+        background-size: 600px; */
+        background-image: none;
+        /* width: 800px; */
     }
 
     .banner-content {
@@ -449,7 +457,7 @@ footer {
     }
 
     .banner-pic img {
-        padding-left: 55px;
+        padding-left: 35px;
         width: 90%;
     }
 
@@ -468,7 +476,8 @@ footer {
     }
 
     .banner-item {
-        padding-left: 175px;
+        margin-top: 50px;
+        padding-left: 170px;
     }
 
     /* .online{
@@ -481,12 +490,12 @@ footer {
     } */
     .card {
         grid-template-columns: 1fr;
-        padding-left: 200px;
+        padding-left: 180px;
     }
 
     .online-title,
     .online-text {
-        padding-left: 120px;
+        padding-left: 110px;
         width: 500px;
     }
 
@@ -502,7 +511,7 @@ footer {
 
     .i1,
     .i2 {
-        padding-left: 250px;
+        padding-left: 220px;
     }
 
     .types-content {
@@ -532,6 +541,41 @@ footer {
         width: 450px;
         padding-left: 180px;
     }
+    .online-title{
+        margin-left: 200px;
+        width: 1000px;
+    }
+    .online-text{
+        padding-left: 450px;
+        width: 500px;
+    }
+    .card {
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 350px;
+        align-items: center;
+    }
+    .i1{
+        padding-left: 350px;
+        width: 500px;
+    }
+    .i2 {
+        padding-left: 350px;
+    }
+    .play-instant-text {
+        text-align: right;
+        padding-left: 500px;
+        width: 500px;
+    }
+    .types-content{
+       padding-left: 230px;
+    width: 1000px; 
+    }
+    footer {
+        width: 1380px;
+    }
+    
+
+
 }
 
 
